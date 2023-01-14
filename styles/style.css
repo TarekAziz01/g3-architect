@@ -1,0 +1,232 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+/* ------------
+header section
+-----------  */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    height: 1400px;
+}
+.primary-tittle{
+    font-size: 45px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar ul li{
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+/* banner  */
+.banner{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.banner-info{
+    margin-bottom: 50px;
+}
+.banner-tittle{
+    font-size: 64px;
+
+}
+.banner-description{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+/* -----------
+Quick-section
+----------  */
+.Quick-section{
+    margin-top: 130px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+/* quick info  */
+.gray{
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
+.quick-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+/*-------------
+features section 
+------------- */
+.feature-section{
+    margin-top: 130px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.feature-tittle{
+    border-left: 7px solid #FF900E;
+    padding-left: 15px;
+}
+.feature{
+    justify-content: center;
+    align-items: center;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(156, 73, 73, 0.3);
+    border-radius: 8px;  
+    padding-left: 20px;
+}
+.feature h5{
+    font-size: 20px;
+    color: #131313;
+    line-height: 23px;
+}
+.feature p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.exp-con{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -180px; left: 100px;
+}
+.exp{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 10px;
+
+    }
+.exp h2{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.exp p{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* skill section  */
+.skill-section{
+    width: 1450px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    height: 300px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #474747;
+    font-size: 16px;
+}
+
+/* facts-section */
+.facts-section{
+    width: 1450px;
+    margin: 0 auto;
+}
+.achivements{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+.achivement{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 0px;
+}
+.achivement img{
+   margin-top: 40px;
+}
+/* sponsors section  */
+.sponsors-info{
+    margin-top: 130px;
+   text-align: center;
+}
+.sponsors{
+    margin-top: 100px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 170px;
+    align-items: center;
+    justify-content: center;
+}
+.sponsors-icon{
+    filter: grayscale(1);
+}
+/* footer section  */
+footer{
+    margin-bottom: 100px;
+}
+footer div{
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+footer div p{
+    padding-top: 40px;
+    text-align: center;
+}
